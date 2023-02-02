@@ -1,6 +1,9 @@
-import { roboto } from '@theme-ui/presets'
+import { roboto } from '@theme-ui/presets';
+import { Theme } from 'theme-ui';
 
-const theme = {
+const makeTheme = <T extends Theme>(t: T) => t
+
+const theme = makeTheme({
   ...roboto,
   containers: {
     card: {
@@ -32,13 +35,13 @@ const theme = {
     borderRadius: '1vw',
     boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
   },
-  links: {
+  link: {
     px: 1,
     py: 1,
     textTransform: 'uppercase',
     letterSpacing: '0.1em',
     textDecoration: 'none'
   }
-}
+})
 
 export default theme

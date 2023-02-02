@@ -13,10 +13,10 @@ const Nav = () => {
         </Link>
       </div>
       <div>
-        <Link href="/men" sx= {{variant:'links'}}>
+        <Link href="/men" sx= {{variant:'link'}}>
           Men
         </Link>
-        <Link href="/women" sx= {{variant:'links'}}>
+        <Link href="/women" sx= {{variant:'link'}}>
           Women
         </Link>
       </div>

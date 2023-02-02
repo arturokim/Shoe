@@ -3,7 +3,7 @@ import Shoes from "@/containers/Shoes";
 
 const Men = () => {
   return (
-    <div sx={{}}>
+    <div>
       Men
       <Shoes/>
     </div>
