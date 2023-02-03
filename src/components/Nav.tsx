@@ -8,7 +8,7 @@ const Nav = () => {
 	return (
     <div sx={{variant: 'nav'}}>
       <div>
-        <Link href="/">
+        <Link href="/home">
           YoungHB
         </Link>
       </div>

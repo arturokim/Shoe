@@ -1,11 +1,11 @@
 import { jsx } from "theme-ui";
 
-const Shoe = () => {
+const Home = () => {
   return (
     <div>
-      Shoe
+      Home
     </div>
   )
 }
 
-export default Shoe;
+export default Home;
